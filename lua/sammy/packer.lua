@@ -52,4 +52,7 @@ return require('packer').startup(function(use)
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
   }
+
+  use { 'mhartington/formatter.nvim' }
+
 end)
