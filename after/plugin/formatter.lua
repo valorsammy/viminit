@@ -59,3 +59,5 @@ require("formatter").setup {
     }
   }
 }
+
+vim.keymap.set('n', '<leader>ff', vim.cmd.FormatWrite)
